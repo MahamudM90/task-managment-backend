@@ -76,7 +76,7 @@ run().catch(err => console.log(err));
 
 
 app.get('/', (req, res) => {
-    res.send('Hello from node mongo crud server');
+    res.send('Hello from Task Management server');
 });
 
 app.listen(port, () => {
